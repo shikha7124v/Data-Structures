@@ -17,5 +17,6 @@ int main()
 {
     vector<int> prices = {7,1,2,3,6,5};
     int maxProfiteIS = maxProfite(prices);
+    cout<<"Maximum profit is :"<<maxProfiteIS;
     return 0;
 }

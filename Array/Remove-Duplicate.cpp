@@ -20,4 +20,7 @@ int main()
 {
     vector<int> nums = {1,1,2,3,3,4,4,4};
     int k = removeDuplicates(nums);
+    for(int i=0; i<k; i++){
+        cout<<nums[i]<<" ";
+    }
 }
