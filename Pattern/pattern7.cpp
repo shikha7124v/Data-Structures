@@ -12,7 +12,7 @@ int main()
             cout<<"* ";
             }
             if(i == j-1){
-                cout<<"* ";
+                cout<<"*";
             }
         }
         cout<<endl;
