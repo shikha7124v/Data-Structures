@@ -1,0 +1,2 @@
+When a function calls itself unit a specified condition that is called recursion. 
+Errors - Stack Overflow and SEGMENTATION FAULT 
