@@ -3,10 +3,13 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int bubbleSortBestCase(int arr[], int n){
-    for(int i=n-1; i>=0; i--){
+int bubbleSortBestCase(int arr[], int n)
+{
+    for(int i=n-1; i>=0; i--)
+    {
         int index = 0;
-        for(int j=0; j<n; j++){
+        for(int j=0; j<n; j++)
+        {
             if(arr[j] > arr[j+1]){
                 int temp = arr[j];
                 arr[j] = arr[j+1];
@@ -15,15 +18,18 @@ int bubbleSortBestCase(int arr[], int n){
                 index = 1;
             }
         }
-        if(index == 0){
+        if(index == 0)
+        {
             break;
         }
     }
     cout<<endl;
-    for(int i=0; i<n; i++){
+    for(int i=0; i<n; i++)
+    {
         cout<<arr[i]<<" ";
     }
     cout<<endl;
+    return 0;
 }
 
 int main()
