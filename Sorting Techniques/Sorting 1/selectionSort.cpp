@@ -12,7 +12,7 @@ int selectionSort(int arr[], int n)
         swap(arr[mini], arr[i]);
     }
     return 0;
-}
+} 
 int main()
 {
     int arr[] = {19,23,11,18,17,10};
@@ -27,4 +27,4 @@ int main()
         cout<<arr[i]<<" ";
     }
     return 0;
-}
+} 
