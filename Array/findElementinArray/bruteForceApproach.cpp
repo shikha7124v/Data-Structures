@@ -19,8 +19,6 @@ int findElement(vector<int> arr, int n)
     return -1;
 }
 
-// Better approach 
-
 int main()
 {
     vector<int> arr = {1,2,3,0};
