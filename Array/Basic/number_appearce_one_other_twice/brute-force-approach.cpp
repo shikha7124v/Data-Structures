@@ -20,7 +20,7 @@ int appearceOnce(vector<int> arr, int n){
 }
 int main()
 {
-    vector<int> arr{1,1,2,2,3,3,4,4,5};
+    vector<int> arr{2,2,1};
     int n = arr.size();
 
     cout<<appearceOnce(arr, n);
