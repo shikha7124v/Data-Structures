@@ -34,6 +34,7 @@ int main()
         cout<<endl;
     }
     vector<vector<int>> ans = setMatrixZero(arr, n, m);
+    cout<<endl;
     for(auto x: ans){
         for(auto y: x){
             cout<<y<<" ";
