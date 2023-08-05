@@ -11,7 +11,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int triangularSum(vector<int> ans, int n)
+int triangularSum(vector<int> arr, int n)
 {
     while(n>1){
         vector<int> v;
