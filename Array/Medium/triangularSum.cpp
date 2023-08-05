@@ -21,7 +21,7 @@ int triangularSum(vector<int> arr, int n)
         --n;
         arr = v;
     }
-    return nums[0];
+    return arr[0];
 }
 int main()
 {
