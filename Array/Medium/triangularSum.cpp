@@ -16,7 +16,7 @@ int triangularSum(vector<int> arr, int n)
     while(n>1){
         vector<int> v;
         for(int i=0; i<n-1; i++){
-            v.push_back((v[i]+v[i+1])%10);
+            v.push_back((arr[i]+arr[i+1])%10);
         }
         --n;
         arr = v;
