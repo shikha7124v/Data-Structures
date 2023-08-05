@@ -19,7 +19,7 @@ int triangularSum(vector<int> ans, int n)
             v.push_back((v[i]+v[i+1])%10);
         }
         --n;
-        nums = v;
+        arr = v;
     }
     return nums[0];
 }
