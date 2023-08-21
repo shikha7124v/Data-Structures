@@ -1,6 +1,6 @@
 // Problem Statement: Given an array of intervals, merge all the overlapping intervals and return an array of non-overlapping intervals.
 
-// Brute Force approach 
+// Brute Force approach - Time Complexity: O(N*logN) + O(2*N), Space Complexity: O(N)
 #include<bits/stdc++.h>
 using namespace std;
 
