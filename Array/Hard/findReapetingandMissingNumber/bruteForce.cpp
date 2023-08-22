@@ -26,12 +26,10 @@ int repeatedAndMissing(vector<int> arr, int n)
     }
     cout<<endl;
     int sum = 0;
+    int actualsum = 0;
         for(int i=0; i<n; i++){
             sum += arr[i];
-        }
-        int actualsum = 0;
-        for(int i=1; i<=n; i++){
-            actualsum += i;
+            actualsum += (i+1);
         }
         cout<<"The missing element is : "<<actualsum - (sum - repeated);
     return 0;
