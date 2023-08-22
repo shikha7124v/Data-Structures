@@ -22,12 +22,16 @@ int mergeSortedArraysWithoutSpace(vector<int> arr1, vector<int> arr2)
             break;
         }
     }
+    sort(arr1.begin(), arr1.end());
+    sort(arr2.begin(), arr2.end());
+    
     for(auto it: arr1){
         cout<<it<<" ";
     }
     for(auto x: arr2){
         cout<<x<<" ";
     }
+    
     return 0;
 }
 int main()
