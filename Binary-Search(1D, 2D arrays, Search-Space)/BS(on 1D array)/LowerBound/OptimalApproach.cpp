@@ -4,7 +4,10 @@ using namespace std;
 
 int lowerBound(vector<int> &arr, int x, int low, int high)
 {
-    int ans = arr.size();
+    int ans = -1;
+    if(arr[0] > x){
+        return ans;
+    }
     while(low <= high){
         int mid = (low+high)/2;
         if(arr[mid] >= x){
