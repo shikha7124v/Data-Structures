@@ -14,7 +14,7 @@ int divisor(vector<int> arr, int n, int limit){
     int maxi = *max_element(arr.begin(), arr.end());
     int high = maxi;
     int low = 1;
-    while(high < low){
+    while(low <= high){
         int mid = (high+low)/2;
         if(sumfun(arr,mid)<=limit){
             high = mid - 1;
