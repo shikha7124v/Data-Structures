@@ -1,0 +1,13 @@
+#include<bits/stdc++.h>
+using namespace std;
+
+int numberOfNodes(int n){
+    return pow(2, n-1);
+}
+int main()
+{
+    int n;
+    cin>>n; //the level
+    cout<<"Maximum number of nodes possible at the "<<n<<"th level : "<<numberOfNodes(n);
+    return 0;
+}
