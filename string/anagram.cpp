@@ -1,4 +1,5 @@
 // check if two strings are anagram or not 
+// time complexity - O(nlogn)
 #include<bits/stdc++.h>
 using namespace std;
 
